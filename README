@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Title: Applying Recurrent Layers to the Decomposable Attention Model for Natural Language Inference
+Title: Applying Recurrent Layers to the Decomposable Attention Model [1] for Natural Language Inference
 Author: Ryan Camilleri
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Note: To run the project, make sure you view INSTRUCTIONS for installing the necessary packages.
@@ -64,4 +64,6 @@ Notebooks
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The end :)
+References
+[1] A. P. Parikh, O. Tackstr ¨ om, D. Das, and J. Uszkoreit, “A Decomposable Attention Model for Natural Language Inference,” ¨
+arXiv:1606.01933 [cs], June 2016. arXiv: 1606.01933 version: 1.
