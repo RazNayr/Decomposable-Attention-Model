@@ -1,0 +1,66 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Title: 
+Author: Ryan Camilleri (328400L)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Directories
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. dataset
+==============
+- Stores SNLI zipped folder.
+- Stores SNLI unzipped train, validation and test sets.
+- Populated when running dataset-utils.ipynb.
+
+
+2. model-representations
+==============
+- Stores the visualised architectures of each model.
+
+
+3. saved-models
+==============
+- Contains hdf5 files representing the best weights obtained when training the models.
+- These files are overriden when running model-trainer.ipynb and used when running model-evaluator.ipynb.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Notebooks
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. data-visualizer.ipynb
+==============
+- Notebook used to observe the distribution of the SNLI dataset.
+- This is also used to explain decisions taken throughout the project, such as choosing the maximum sequence lengths.
+
+
+2. data-utils.ipynb
+==============
+- Used to retrieve the SNLI dataset and unzip the necessary train, validation and test files.
+
+
+3. model-evaluator.ipynb
+==============
+- Used to evaluate the models saved in the saved-models directory.
+
+- Quantitative Evaluation
+--> Classification Report
+--> Confusion Matrix
+--> ROC Curve
+--> Precision-Recall Curve
+
+- Qualitative Evaluation
+--> Observation of Incorrect Predictions
+--> Custom Input Predictions
+
+
+4. model-trainer.ipynb
+==============
+- Used to train the models and display their architecture.
+- Display accuracy against loss for training and validation sets after training. 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The end :)
