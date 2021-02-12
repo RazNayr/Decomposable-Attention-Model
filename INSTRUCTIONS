@@ -1,6 +1,6 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Title: 
-Author: Ryan Camilleri (328400L)
+Title: Applying Recurrent Layers to the Decomposable Attention Model for Natural Language Inference
+Author: Ryan Camilleri
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,6 +41,7 @@ Instructions
 - Open model-evaluator.ipynb
 - Run to replicate results and evaluate the pre-trained models.
 (WARNING: This will install the gensim word2vec embeddings if this wasn't already installed)
+
 
 5. Train Models
 ==============
