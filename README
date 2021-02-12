@@ -1,8 +1,19 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Title: Applying Recurrent Layers to the Decomposable Attention Model [1] for Natural Language Inference
+Title: Applying Recurrent Layers to the Decomposable Attention Model for Natural Language Inference
 Author: Ryan Camilleri
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Note: To run the project, make sure you view INSTRUCTIONS for installing the necessary packages.
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Models
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+This project extends Parikh et al.'s Decomposable Attention Model (DAM) [1] by adding reccurent components to the original.
+To achieve this, the following models were defined:
+-->DAM
+-->DAM-INTRA (DAM with intra-sentence attention)
+-->DAM-BiLSTM (DAM with bilateral LSTM)
+-->DAM-BiGRU (DAM with bilateral GRU)
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
