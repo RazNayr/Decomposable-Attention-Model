@@ -3,7 +3,7 @@
 The aim of this project is to investigate whether adding recurrent components to the decomposable attention model (DAM) [1] could enhance the performance of the overall network. Additionally, the proposed enhancements will be strict in maintaining a lower amount of trainable parameters than those required for other RNN models, so as to determine if an increase in performance could be achieved with minimal increase in parameters.
 
 Note:
-> To run the project, make sure you view INSTRUCTIONS for installing the necessary packages. * </br> To fully understand the project scope and see results, please read the pdf present in the repo. *
+> To run the project, make sure you view INSTRUCTIONS for installing the necessary packages. * </br> To fully understand the project scope and see results, please refer to the pdf present in the repo. *
 
 </br>
 </br>
